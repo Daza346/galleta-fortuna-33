@@ -1,0 +1,46 @@
+.app{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction:column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__title{
+    text-shadow: 0.2em 0.2em #0002;
+}
+.app__card{
+    width: 100%;
+    max-width: 25em;
+    background-color: #fff9;
+    padding: 1.5em 2em;
+    border-radius: 0.8em;
+    box-shadow:0.3em 0.3em 0.5em  #0005;
+}
+
+.app__phrase{
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.app__btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1rem;
+    border: none;
+    padding: 0.4em 1.5em;
+    border-radius: 0.8em;
+    background-color: mediumslateblue;
+    color: white;
+    transition: transform 100ms ease, box-shadow 100ms ease;
+}
+
+.app__btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 1em rgba(124, 104, 238, 0.495);
+}
